@@ -8,7 +8,7 @@
     "build": "webpack",
     "start:dev": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MeaghanCampbell/food-festival.git"
@@ -25,12 +25,14 @@
     "webpack": "^5.34.0",
     "webpack-bundle-analyzer": "^4.4.1",
     "webpack-cli": "^4.6.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "webpack-pwa-manifest": "^4.3.0"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
     "image-webpack-loader": "^7.0.1",
     "jquery": "^3.6.0",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "sw-precache-webpack-plugin": "^1.0.0"
   }
 }
